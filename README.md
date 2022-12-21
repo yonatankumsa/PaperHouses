@@ -6,7 +6,6 @@ Book Top Rated Rentals for Your Next Trip. Helping you make the best decisions i
 
 # Libraries used
 
-*I have used as [Ben Awad](https://github.com/benawad) likes to calls it: **The Hypebeast Stack** (React, Typescript, Node.js, GraphQL)*
 
 - **`React`** the love of my life
 - **`GraphQL`** because REST APIS are boring
@@ -37,81 +36,10 @@ Book Top Rated Rentals for Your Next Trip. Helping you make the best decisions i
 **and much more....**
 
 
-# Installation
+## Screenshot
+<img alt="image" src="https://i.imgur.com/fu5IX2v.png">
 
-1. Clone project
+<img  alt="image" src="https://i.imgur.com/kN5Lsp4.png">
 
-```
-git clone git@github.com:saalikmubeen/paperhouses.git
-```
-
-## Manual
-
-If you aren't a docker person, [We can't be friends. 😑]
-
-cd into root project
-
-```
-1. cd server
-```
-
-`npm install` to to install server dependencies
-
-`npm install --force` if `npm install` doesn't work due to conflicting dependencies
-
-`Setup required environment variables:` 
-
-*Make a **`.env`** file inside the server directory with below environment variables*
- 
-- MONGO_URI_DEV
-- PUBLIC_URL: <http://localhost:3000>
-- SECRET: my_super_secret_for_cookies
-- GOOGLE_CLIENT_ID
-- GOOGLE_CLIENT_SECRET
-- STRIPE_CLIENT_ID
-- STRIPE_SECRET_KEY
-- CLOUDINARY_NAME
-- CLOUDINARY_API_KEY
-- CLOUDINARY_API_SECRET
-- MAPBOX_API_KEY
-
-`npm run seed` if you want to seed the database with some data
-
-`npm run dev` to start development server
-
-*Make sure you have mongoDB installed*
-
-```
-1. cd client
-```
-
-`npm install` installs client dependencies.
-
-`Setup required environment variables:` 
-
-*Make a **`.env`** file inside the client directory with below environment variables*
- 
-- REACT_APP_STRIPE_PUBLISHABLE_KEY
-- REACT_APP_STRIPE_CLIENT_ID
-- REACT_APP_MAPBOX_API_KEY
-
-`npm run start` to start the react development server.
-
-
-## Docker
-
-**`If you use docker, respect++`**
-
-Running project through docker is a breeze. You don't have to do any setup. Just one docker-compose command and magic
-
-`cd into root project`
-
-*First replace the environment variables in the docker-compose.yml file with your own.*
-
-`Then run:`
-
-```
-docker-compose up --build
-```
-
-*Only if you have docker installed in the first place*
+<img  alt="image" src="https://i.imgur.com/dAwI1lM.png">
+<img  alt="image" src="https://i.imgur.com/sdlrmEH.png">
