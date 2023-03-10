@@ -1,7 +1,7 @@
 # PaperHouses
 Airbnb like web app. | Rent out your property, house and apartment and earn money.
 Book Top Rated Rentals for Your Next Trip. Helping you make the best decisions in renting and choosing your last minute locations.
-
+     
 # [Demo](https://paperhouses.netlify.app/)
 
 # Libraries used
